@@ -1,0 +1,584 @@
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing
+.coverage
+htmlcov/
+coverage/
+.pytest_cache/
+.mypy_cache/
+
+# Distribution / packaging
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.cache
+
+# Translations
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Sage
+home/sage/.sage/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Compressed archives
+*.7z
+*.bz2
+*.gz
+*.rar
+*.tar
+*.tar.bz2
+*.tar.gz
+*.xz
+*.zip
+*.zst
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.cjs
+.pnp.loader.mjs
+*.pnp.*
+.npm
+.npmrc
+.yarn/install-state.gz
+.yarn/build-state.yml
+.yarn/plugins/
+.yarn/releases/
+.yarn/sdks/
+.yarn/versions/
+.yarnrc.yml
+.yarnrc
+
+# Bower
+bower_components/
+
+# Grunt
+.grunt
+
+# Gulp
+gulp-cache/
+
+# Sass
+.sass-cache/
+
+# CSS
+*.css.map
+
+# JavaScript
+*.js.map
+*.min.js
+*.min.js.map
+
+# TypeScript
+*.tsbuildinfo
+*.bak
+
+# Ember
+.ember-cli
+.ember/
+tmp/
+dist/
+
+# Vue
+.vuepress/dist
+.output.js
+.output.json
+
+# React
+.next/
+out/
+
+# Next.js
+.next/
+out/
+export-marker.json
+.exported-environment
+
+# Nuxt.js
+.nuxt/
+dist/
+.output/
+generate/
+app.html
+.eslintcache
+
+# Electron
+release/
+.nyc_output
+
+# Webpack
+webpack-stats.json
+
+# Jest
+coverage/
+*.lcov
+lib-cov/
+
+# Ava
+ava.config.cjs
+ava.config.js
+ava.config.mjs
+ava.config.ts
+
+# ESLint
+.eslintcache
+
+# TSLint
+ tslint.json
+ tslint.yaml
+ tslint.yml
+
+# CoffeeScript
+coffeelint.json
+
+# Stylelint
+.stylelintcache
+
+# Code style
+.editorconfig
+
+# Code coverage
+coverage/
+*.lcov
+*.clover
+*.json
+*.xml
+
+# Production
+public/uploads/
+*.backup
+
+# Local configuration files
+*.local
+
+# Ruby/Rails
+*.gem
+*.rbc
+.bundle/
+config.ru
+db/*.sqlite3
+db/*.sqlite3-journal
+.rake_tasks
+log/
+public/system/
+vendor/bundle/
+Gemfile.lock
+Guardfile
+Rakefile
+Capfile
+.svn/
+
+# Go
+*.o
+*.so
+*.a
+*.out
+*.test
+*.prof
+go.mod
+go.sum
+vendor/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.starteam.props
+pom.starteam.patch
+maven-archiver/
+.stfiles
+
+# Scala
+*.class
+*.log
+.libs/
+lib_managed/
+src_managed/
+project/boot/
+project/target/
+streaming_project/target/
+
+# sbt
+lib_managed/
+src_managed/
+target/
+boot/
+scala-2.9.1/
+
+# Android
+*.apk
+*.aab
+*.ap_
+build/
+.externalNativeBuild
+local.properties
+.pro
+captures/
+.gradle/
+.idea/
+*.iml
+*.hprof
+.DS_Store
+!gradle.properties
+gradle/
+!gradlew
+!gradlew.bat
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.cache-main
+.java-version
+.scala_dependencies
+.scala_history
+.hocon
+.classpath
+.project
+.pydevproject
+.store
+.ensime
+.ensime_cache/
+.cobertura.xml
+.pycharm/
+coverage/
+nosetests.xml
+tox.ini
+.cover
+.derive.log
+.jrubyrc
+.rbx/
+.bundle/
+.rbenv-gemsets
+.rbenv-vars
+.rbenv-version
+.bundle
+.Gemfile.lock
+.rvmrc
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc
+.bundle
+.bundle/
+.gem
+.gemrc
+.irb_history
+.irbrc
+.rdoc_options
+.ruby-gemset
+.ruby-version
+.rvmrc......
+```
