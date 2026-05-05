@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "pronemod"
+version = "1.0.0"
+displayName = "Prone Mod"
+authors = ["Developer"]
+description = '''Мод, позволяющий игроку ложиться на землю при нажатии Z'''
+
+[[dependencies.pronemod]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.65,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pronemod]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
